@@ -1,16 +1,20 @@
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+/* Here you would place the content of the CSS file that includes the magenta theme, header navigation, hero section, service cards, and all responsive design styles */ 
 
-.logo-img {
-  max-width: 100%;
-  height: auto;
+/* example styles */ 
+body { 
+    background-color: magenta;
 }
-
-.logo-text {
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: 15px;
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.hero {
+    height: 50vh;
+    /* other styles */
+}
+.service-card {
+    /* card styles */
+}
+@media (max-width: 768px) {
+    /* responsive styles */
 }
